@@ -7,8 +7,8 @@ except:
 import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from FBNEW import login
-    login()
+    from haxore import login
+    azim_vau()
 elif bit == '32bit':
-    from FBNEW import login
-    login()
+    from haxore import login
+    azim_vau()
