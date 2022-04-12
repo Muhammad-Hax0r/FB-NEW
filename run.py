@@ -7,8 +7,8 @@ except:
 import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from FB import Hax0r
+    from ass import Hax0r
     Hax0r()
 elif bit == '32bit':
-    from FB import Hax0r
+    from ass import Hax0r
     Hax0r()
